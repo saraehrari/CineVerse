@@ -1,27 +1,27 @@
+
 import { Route, Routes } from "react-router-dom";
 import Home from'./Pages/Home'
-import Home from'./Pages/Aboutus'
-import Home from'./Pages/Explore'
-import Home from'./Pages/MovieDetails'
-import Home from'./Pages/Toprated'
-import Home from'./Pages/TVShows'
-import Home from'./Pages/Watchlist'
-
-
-
+import Aboutus from'./Pages/Aboutus'
+import Explore from'./Pages/Explore'
+import MovieDetails from'./Pages/MovieDetails'
+import Toprated from'./Pages/Toprated'
+import TVShows from'./Pages/TVShows'
+import Watchlist from'./Pages/Watchlist'
+import Navbar from "./Components/Navbar";
 
 function App(){
 
   return(
     <div>
+      <Navbar/>
      <Routes>
         <Route path="/" element={<Home />} />
-         <Route path="/" element={<Aboutus />} />
-          <Route path="/" element={<Explore />} />
-           <Route path="/" element={<MovieDetails />} />
-            <Route path="/" element={<Toprated />} />
-             <Route path="/" element={<TvShows />} />
-              <Route path="/" element={<Watchlist />} />
+         <Route path="/Aboutus" element={<Aboutus />} />
+          <Route path="/Explore" element={<Explore />} />
+           <Route path="/MovieDetails.id" element={<MovieDetails />} />
+            <Route path="/Toprated" element={<Toprated />} />
+             <Route path="/TVShows" element={<TVShows />} />
+              <Route path="/Watchlist" element={<Watchlist />} />
       </Routes>
     </div>
   )

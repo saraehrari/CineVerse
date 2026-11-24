@@ -1,7 +1,7 @@
-export default function TvShows(){
-    <div>
+export default function TVShows(){
+    return(
         <h1>
-            About page
+            tv shows
         </h1>
-    </div>
+    )
 }

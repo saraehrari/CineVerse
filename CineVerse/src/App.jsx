@@ -6,9 +6,9 @@ import Explore from'./Pages/Explore'
 import MovieDetails from'./Pages/MovieDetails'
 import Toprated from'./Pages/Toprated'
 import TVShows from'./Pages/TVShows'
-import Favorite from'./Pages/Favoritet'
+import Favorite from'./Pages/Favorite'
 import Navbar from "./Components/Navbar";
-import Favorite from "./Pages/Favorite";
+
 
 function App(){
 

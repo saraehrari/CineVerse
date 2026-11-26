@@ -16,6 +16,7 @@ function App(){
     <div>
       <Navbar/>
      <Routes>
+      
         <Route path="/" element={<Home />} />
          <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/Explore" element={<Explore />} />
@@ -23,6 +24,7 @@ function App(){
             <Route path="/Toprated" element={<Toprated />} />
              <Route path="/TVShows" element={<TVShows />} />
               <Route path="favorite" element={<Favorite />} />
+
       </Routes>
     </div>
   )

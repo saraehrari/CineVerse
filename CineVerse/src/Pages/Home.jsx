@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import TopRated from "./Toprated";
 
+
 export default function Home() {
   return (
     <main>
@@ -61,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <TopRated/>
+     <TopRated/>
     </main>
   );
 }

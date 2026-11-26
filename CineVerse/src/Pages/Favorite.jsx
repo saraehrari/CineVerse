@@ -1,4 +1,4 @@
-export default function Watchlist(){
+export default function Favorite(){
     return(
     <h1>
         watch list

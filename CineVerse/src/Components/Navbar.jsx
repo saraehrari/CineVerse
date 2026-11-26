@@ -16,7 +16,7 @@ export default function Navbar() {
             { name: "Explore", path: "/explore" },
             { name: "Top Rated", path: "/top-rated" },
             { name: "TV Shows", path: "/tv-shows" },
-            { name: "Watchlist", path: "/watchlist" },
+            { name: "Favorite", path: "/Favorite" },
           ].map((item) => (
             <NavLink
               key={item.path}

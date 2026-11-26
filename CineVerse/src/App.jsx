@@ -6,8 +6,9 @@ import Explore from'./Pages/Explore'
 import MovieDetails from'./Pages/MovieDetails'
 import Toprated from'./Pages/Toprated'
 import TVShows from'./Pages/TVShows'
-import Watchlist from'./Pages/Watchlist'
+import Favorite from'./Pages/Favoritet'
 import Navbar from "./Components/Navbar";
+import Favorite from "./Pages/Favorite";
 
 function App(){
 
@@ -21,7 +22,7 @@ function App(){
            <Route path="/MovieDetails.id" element={<MovieDetails />} />
             <Route path="/Toprated" element={<Toprated />} />
              <Route path="/TVShows" element={<TVShows />} />
-              <Route path="/Watchlist" element={<Watchlist />} />
+              <Route path="favorite" element={<Favorite />} />
       </Routes>
     </div>
   )
